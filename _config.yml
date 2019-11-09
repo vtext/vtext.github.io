@@ -25,7 +25,6 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: vtext
     github:  vtext
     rss: rss
  
