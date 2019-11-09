@@ -1,23 +1,42 @@
-# Site settings
-title: "vtext"
-bye_message: "Thx!"
-baseurl: "/"
-url: "https://vtext.github.io"
-disqus: vtext
+title: vtext
+author: GitHub User
+email: mottsel@163.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+show_excerpts: true # set to true to show excerpts on the homepage
+baseurl: /texture
 
-# Header settings
-nick: "vtext"
-mail:
-    domain: "protonmail"
-    ext: "ch"
-source_code:
-    server: "github.com"
-    nick: "vtext"
-blog:
-    server: "wordpress.com"
-    nick: "vtext"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: vtext
+  tagline: Developer
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: false
+  showPicker: true
+
+  # generate social links in footer
+  social_links:
+    twitter: vtext
+    github:  vtext
+    rss: rss
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-markdown: kramdown
-permalink: /:categories/:title/
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
