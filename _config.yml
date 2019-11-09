@@ -1,21 +1,23 @@
-## Settings
-title: vtext
-owner: "vtext"
-url: "https://vtext.github.io"
-baseurl: "/"
-permalink: /:title/
-description: ""
+# Site settings
+title: "gjuniioor"
+bye_message: "Thx!"
+baseurl: "/clyell/"
+url: "https://gjuniioor.github.io"
+disqus: gjuniioor
+
+# Header settings
+nick: "gjuniioor"
+mail:
+    domain: "protonmail"
+    ext: "ch"
+source_code:
+    server: "github.com"
+    nick: "gjuniioor"
+blog:
+    server: "wordpress.com"
+    nick: "gjuniioor"
+fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+
+# Build settings
 markdown: kramdown
-webrick:
-  headers:
-    Access-Control-Allow-Origin: "*"
-## Global Variables
-email: "mottsel@163.com"
-github: "vtext"
-# path to: css/, fonts/, img/ and js/
-assets_path: "/assets" # i.e. "/assets" 
-statement: "All Rights Reserved"
-# default max toc levels: 1 - 6 (h1 - h6)
-toc_level: 3
-# texts randomly displayed in background
-bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
+permalink: /:categories/:title/

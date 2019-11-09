@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
+
   {% include head.html %}
-  <body class="page">
-    {% include background.html %}
-    <div class="container" id="ctner">
-      
-      <div class="div_article" id="div_atcl">       
-        <article id="main_atcl" itemscope itemtype="http://schema.org/BlogPosting">
-          {{content}}
-          {% include list_of_articles.html %}
-        </article>
-          {% if page.footer == true %}
-          {% include footer.html %}
-          {% endif %}
+
+    <body>
+      <div class="container">
+
+        {% include header.html %}
+
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <main>
+            {{ content }}
+            </main>
+          </div>
+        </div>
+
+        {% include footer.html %}
+
       </div>
-    </div>
-  </body>
+    </body>
 </html>
