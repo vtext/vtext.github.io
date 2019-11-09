@@ -11,7 +11,4 @@ encrypted_text: true
 permalink: /
 ---
 
-# vtext personal homepage
-
-hello github pages!
 
